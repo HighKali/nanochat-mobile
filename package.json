@@ -1,0 +1,22 @@
+{
+    "name": "nanochat-mobile",
+    "version": "1.0.0",
+    "dependencies": {
+        "express": "^4.17.1",
+        "ws": "^8.5.0",
+        "scrypt-js": "^3.0.1",
+        "libsodium-wrappers": "^0.7.10",
+        "react": "17.0.2",
+        "react-native": "0.64.3",
+        "@react-navigation/native": "^6.0.8",
+        "@react-navigation/stack": "^6.1.1",
+        "react-native-gesture-handler": "^2.2.0",
+        "react-native-websocket": "^1.0.2"
+    },
+    "scripts": {
+        "start-backend": "node nanochat-mobile-complete.js",
+        "start-mobile": "react-native start",
+        "android": "react-native run-android",
+        "ios": "react-native run-ios"
+    }
+}
